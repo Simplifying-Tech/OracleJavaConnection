@@ -13,7 +13,7 @@ public class OracleJavaJDBCExample {
 		Statement stmt = null;
 		String DB_URL = "jdbc:oracle:thin:@localhost:1521:orcl";
 		String USER = "sys as sysdba";
-		String PASS = "Admin@123";
+		String PASS = "<passcode>";
 		// Creating Connection
 		try {
 			conn = DriverManager.getConnection(DB_URL, USER, PASS);
